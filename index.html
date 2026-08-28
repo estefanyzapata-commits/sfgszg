@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<style>
+header {
+background-color: #183C63;
+color: #FFFFFF;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+}
+main {
+display: flex;
+background-color: #FFFFFF;
+color: #183C63;
+max-width: 800px;
+margin: 0 auto;
+}
+img {
+width: 80px;
+height: 80px;
+}
+.artigo-autor {
+font-weight: bold;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>blog</title>
+</head>
+<body>
+<header>
+<h1>Meu blog tech</h1>
+<p>Vou compartilhar conhecimentos de tecnologia e programação</p>
+</header>
+<main>
+<img src="images.png" alt="Dois Livro Azuis">
+<div>
+<h2>Meu primeiro post</h2>
+<p class="artigo-autor">Por: Estefany Rodriguez </p>
+<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+<button1>❤️<span1>0</span1></button1>
+<button2>👍<span2>0</span2></button2>
+</div>
+</main>
+</body>
+<script>
+function botaoClicado() {
+let texto = botoes.querySelector("span1");
+texto.textContent++;
+}
+
+const botoes = document.querySelector("button1");
+botoes.addEventListener("click", botaoClicado);
+
+function botaoClicado2() {
+let texto = boto.querySelector("span2");
+texto.textContent++;
+}
+
+const boto = document.querySelector("button2");
+boto.addEventListener("click", botaoClicado2);
+</script>
